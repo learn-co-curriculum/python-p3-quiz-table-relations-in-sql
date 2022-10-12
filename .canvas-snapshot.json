@@ -4,7 +4,7 @@
     "title": "Table Relations in SQL Quiz",
     "html_url": "https://learning.flatironschool.com/courses/5935/quizzes/31821",
     "mobile_url": "https://learning.flatironschool.com/courses/5935/quizzes/31821?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-table-relations-in-sql\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-table-relations-in-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-table-relations-in-sql\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-table-relations-in-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 15695,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 7,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "gaac9f2ee77e366f6e1af91cc1b951ae0",
@@ -254,7 +254,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/sql-joins\">SQL Joins</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9938,
+          "id": "9938",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! This will return all rows when there's at least one match in both\ntables.</p>",
@@ -262,7 +262,7 @@
           "html": "<p><code>INNER JOIN</code></p>"
         },
         {
-          "id": 9308,
+          "id": "9308",
           "text": "",
           "comments": "",
           "comments_html": "<p>Exactly! This returns all rows from the left table and the matching rows from\nthe right table.</p>",
@@ -270,7 +270,7 @@
           "html": "<p><code>LEFT (OUTER) JOIN</code></p>"
         },
         {
-          "id": 6365,
+          "id": "6365",
           "text": "",
           "comments": "",
           "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
@@ -278,7 +278,7 @@
           "html": "<p><code>RIGHT JOIN</code></p>"
         },
         {
-          "id": 8225,
+          "id": "8225",
           "text": "",
           "comments": "",
           "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
@@ -286,7 +286,7 @@
           "html": "<p><code>FULL JOIN</code></p>"
         },
         {
-          "id": 2217,
+          "id": "2217",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
