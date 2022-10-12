@@ -1,7 +1,7 @@
 ---
 id: 31821
 course_id: 5935
-repo: phase-3-quiz-table-relations-in-sql
+repo: python-p3-quiz-table-relations-in-sql
 ---
 
 # Table Relations in SQL Quiz
