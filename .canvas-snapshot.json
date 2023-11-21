@@ -1,9 +1,9 @@
 {
   "quiz": {
-    "id": 31821,
+    "id": 53499,
     "title": "Table Relations in SQL Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/5935/quizzes/31821",
-    "mobile_url": "https://learning.flatironschool.com/courses/5935/quizzes/31821?force_user=1&persist_headless=1",
+    "html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53499",
+    "mobile_url": "https://learning.flatironschool.com/courses/7559/quizzes/53499?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-table-relations-in-sql\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-table-relations-in-sql/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
@@ -21,12 +21,12 @@
     "due_at": null,
     "lock_at": null,
     "unlock_at": null,
-    "published": true,
+    "published": false,
     "unpublishable": true,
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_31821"
+      "asset_string": "quizzes:quiz_53499"
     },
     "lock_explanation": "This quiz is currently locked.",
     "hide_results": null,
@@ -46,7 +46,7 @@
     "require_lockdown_browser_for_results": false,
     "require_lockdown_browser_monitor": false,
     "lockdown_browser_monitor_data": "",
-    "speed_grader_url": "https://learning.flatironschool.com/courses/5935/gradebook/speed_grader?assignment_id=191915",
+    "speed_grader_url": null,
     "permissions": {
       "manage": true,
       "read": true,
@@ -60,77 +60,74 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/31821/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/31821/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/31821/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53499/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53499/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53499/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/5935/quizzes/31821/submission_versions",
-    "assignment_id": 191915,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53499/submission_versions",
+    "assignment_id": 263578,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 15695,
+    "assignment_group_id": 25101,
     "show_correct_answers_last_attempt": true,
-    "version_number": 7,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": "gaac9f2ee77e366f6e1af91cc1b951ae0",
+    "migration_id": "g9b0ede3cac7feacd959fad0b35b3fe86",
     "in_paced_course": false,
     "question_types": [
-      "multiple_choice_question",
-      "true_false_question",
-      "multiple_answers_question"
+
     ]
   },
   "questions": [
     {
-      "id": 210651,
-      "quiz_id": 31821,
+      "id": 366039,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453448,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "SQL: Foreign Keys",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>I want to establish a relationship between a <code>genres</code> table and a <code>books</code> table.\nWhat kind of key would I need to add to the <code>books</code> table to establish this\nrelationship?</p>",
+      "question_text": "I want to establish a relationship between a <code>genres</code> table and a <code>books</code> table.\nWhat kind of key would I need to add to the <code>books</code> table to establish this\nrelationship?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Associating Tables with Foreign Keys",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3821",
           "id": 3821,
-          "text": "",
-          "html": "<p>Foreign Key</p>",
-          "comments": "",
-          "comments_html": "<p>Exactly! The foreign key refers to the primary key in another table.</p>",
-          "weight": 100.0
+          "text": "Foreign Key",
+          "comments": "Exactly! The foreign key refers to the primary key in another table."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4289",
           "id": 4289,
-          "text": "",
-          "html": "<p>Primary Key</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The primary key refers to the row in the current table. Which key\nrefers to a different table?</p>",
-          "weight": 0.0
+          "text": "Primary Key",
+          "comments": "Not quite. The primary key refers to the row in the current table. Which key refers to a different table?",
+          "comments_html": "Not quite. The primary key refers to the row in the current table. Which key\nrefers to a different table?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4892",
           "id": 4892,
-          "text": "",
-          "html": "<p>Integer Key</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. It's likely that the key will be an integer, but that's not the\ncorrect name.</p>",
-          "weight": 0.0
+          "text": "Integer Key",
+          "comments": "Not quite. It's likely that the key will be an integer, but that's not the correct name.",
+          "comments_html": "Not quite. It's likely that the key will be an integer, but that's not the\ncorrect name."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3627",
           "id": 3627,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -141,53 +138,55 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210652,
-      "quiz_id": 31821,
+      "id": 366040,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453451,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>We have two tables: <code>users</code> and <code>posts</code>. A user has many posts, and a post\nbelongs to a user. How should we relate the two tables to one another?</p>",
+      "question_text": "We have two tables: <code>users</code> and <code>posts</code>. A user has many posts, and a post\nbelongs to a user. How should we relate the two tables to one another?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Associating Tables with Foreign Keys",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_9795",
           "id": 9795,
-          "text": "",
-          "html": "<p>Put a <code>user_id</code> foreign key on the <code>posts</code> table pointing to the <code>id</code> primary\nkey in the <code>users</code> table.</p>",
-          "comments": "",
-          "comments_html": "<p>Yes! We can store which user a post belongs to by having each post point to a\nuser.</p>",
-          "weight": 100.0
+          "text": "Put a user_id foreign key on the posts table pointing to the id primary key in the users table.",
+          "html": "Put a <code>user_id</code> foreign key on the <code>posts</code> table pointing to the <code>id</code> primary\nkey in the <code>users</code> table.",
+          "comments": "Yes! We can store which user a post belongs to by having each post point to a user.",
+          "comments_html": "Yes! We can store which user a post belongs to by having each post point to a\nuser."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3667",
           "id": 3667,
-          "text": "",
-          "html": "<p>Put a <code>post_id</code> foreign key on the <code>users</code> table pointing to the <code>id</code> primary\nkey in the <code>posts</code> table.</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This would allow a user to have only one post.</p>",
-          "weight": 0.0
+          "text": "Put a post_id foreign key on the users table pointing to the id primary key in the posts table.",
+          "html": "Put a <code>post_id</code> foreign key on the <code>users</code> table pointing to the <code>id</code> primary\nkey in the <code>posts</code> table.",
+          "comments": "Not quite. This would allow a user to have only one post."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5890",
           "id": 5890,
-          "text": "",
-          "html": "<p>Create a join table that points to both <code>users</code> and <code>posts</code></p>",
-          "comments": "",
-          "comments_html": "<p>We can actually relate the users and posts without a join table. How can we do\nthat?</p>",
-          "weight": 0.0
+          "text": "Create a join table that points to both users and posts",
+          "html": "Create a join table that points to both <code>users</code> and <code>posts</code>",
+          "comments": "We can actually relate the users and posts without a join table. How can we do that?",
+          "comments_html": "We can actually relate the users and posts without a join table. How can we do\nthat?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4402",
           "id": 4402,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -198,35 +197,37 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210653,
-      "quiz_id": 31821,
+      "id": 366041,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453446,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 3,
       "question_name": "SQL: Foreign Keys",
       "question_type": "true_false_question",
-      "question_text": "<p>We have two tables: <code>users</code> and <code>posts</code>. A user has many posts, and a post\nbelongs to a user. To create this relationship, you would add the foreign key to\nthe <code>users</code> table.</p>",
+      "question_text": "We have two tables: <code>users</code> and <code>posts</code>. A user has many posts, and a post\nbelongs to a user. To create this relationship, you would add the foreign key to\nthe <code>users</code> table.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Associating Tables with Foreign Keys",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Remember, in a one-to-many association, the foreign key should be on the table\nof the record that <strong>belongs to</strong> a record in the other table, in this case\nposts.</p>",
-          "text": "True",
           "weight": 0,
-          "id": 5220
+          "migration_id": "RESPONSE_5220",
+          "id": 5220,
+          "text": "True",
+          "comments": "Remember, in a one-to-many association, the foreign key should be on the table of the record that belongs to a record in the other table, in this case posts.",
+          "comments_html": "Remember, in a one-to-many association, the foreign key should be on the table\nof the record that <strong>belongs to</strong> a record in the other table, in this case\nposts."
         },
         {
-          "comments": "",
-          "comments_html": "<p>Correct! In a one-to-many association, the foreign key should be on the table of\nthe record that <strong>belongs to</strong> a record in the other table, in this case posts.</p>",
-          "text": "False",
           "weight": 100,
-          "id": 3660
+          "migration_id": "RESPONSE_3660",
+          "id": 3660,
+          "text": "False",
+          "comments": "Correct! In a one-to-many association, the foreign key should be on the table of the record that belongs to a record in the other table, in this case posts.",
+          "comments_html": "Correct! In a one-to-many association, the foreign key should be on the table of\nthe record that <strong>belongs to</strong> a record in the other table, in this case posts."
         }
       ],
       "variables": null,
@@ -237,61 +238,65 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210654,
-      "quiz_id": 31821,
+      "id": 366042,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453447,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 4,
       "question_name": "SQL: Joins",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which types of joins are supported by SQLite?</p>",
+      "question_text": "Which types of joins are supported by SQLite?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:SQL Joins",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/sql-joins\">SQL Joins</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/sql-joins\">SQL Joins</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9938",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! This will return all rows when there's at least one match in both\ntables.</p>",
-          "weight": 100.0,
-          "html": "<p><code>INNER JOIN</code></p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_9938",
+          "id": 9938,
+          "text": "INNER JOIN",
+          "html": "<code>INNER JOIN</code>",
+          "comments": "Correct! This will return all rows when there's at least one match in both tables.",
+          "comments_html": "Correct! This will return all rows when there's at least one match in both\ntables."
         },
         {
-          "id": "9308",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Exactly! This returns all rows from the left table and the matching rows from\nthe right table.</p>",
-          "weight": 100.0,
-          "html": "<p><code>LEFT (OUTER) JOIN</code></p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_9308",
+          "id": 9308,
+          "text": "LEFT (OUTER) JOIN",
+          "html": "<code>LEFT (OUTER) JOIN</code>",
+          "comments": "Exactly! This returns all rows from the left table and the matching rows from the right table.",
+          "comments_html": "Exactly! This returns all rows from the left table and the matching rows from\nthe right table."
         },
         {
-          "id": "6365",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
-          "weight": 0.0,
-          "html": "<p><code>RIGHT JOIN</code></p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_6365",
+          "id": 6365,
+          "text": "RIGHT JOIN",
+          "html": "<code>RIGHT JOIN</code>",
+          "comments": "This is a valid SQL join type, but it's not supported by SQLite, and it's much less common than INNER and LEFT joins.",
+          "comments_html": "This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins."
         },
         {
-          "id": "8225",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
-          "weight": 0.0,
-          "html": "<p><code>FULL JOIN</code></p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_8225",
+          "id": 8225,
+          "text": "FULL JOIN",
+          "html": "<code>FULL JOIN</code>",
+          "comments": "This is a valid SQL join type, but it's not supported by SQLite, and it's much less common than INNER and LEFT joins.",
+          "comments_html": "This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins."
         },
         {
-          "id": "2217",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_2217",
+          "id": 2217,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -302,53 +307,55 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210655,
-      "quiz_id": 31821,
+      "id": 366043,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453449,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 5,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Our database has two tables: <code>cocktails</code> and <code>restaurants</code>. The same cocktail\ncan be served by many restaurants, and each restaurant serves many different\ncocktails. How can we relate cocktails to restaurants?</p>",
+      "question_text": "Our database has two tables: <code>cocktails</code> and <code>restaurants</code>. The same cocktail\ncan be served by many restaurants, and each restaurant serves many different\ncocktails. How can we relate cocktails to restaurants?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Creating Join Tables",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/creating-join-tables\">Creating Join Tables</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/creating-join-tables\">Creating Join Tables</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3081",
           "id": 3081,
-          "text": "",
-          "html": "<p>Create a join table where each row relates a cocktail with a restaurant</p>",
-          "comments": "",
-          "comments_html": "<p>Perfect! This is a many-to-many relationship, so we need a join table that has\ncocktail_id and restaurant_id columns.</p>",
-          "weight": 100.0
+          "text": "Create a join table where each row relates a cocktail with a restaurant",
+          "comments": "Perfect! This is a many-to-many relationship, so we need a join table that has cocktail_id and restaurant_id columns.",
+          "comments_html": "Perfect! This is a many-to-many relationship, so we need a join table that has\ncocktail_id and restaurant_id columns."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7879",
           "id": 7879,
-          "text": "",
-          "html": "<p>Add a <code>cocktail_id</code> column (foreign key) to the <code>restaurants</code> table</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This would allow restaurants to serve only a single cocktail. A\nrestaurant would belong to a cocktail.</p>",
-          "weight": 0.0
+          "text": "Add a cocktail_id column (foreign key) to the restaurants table",
+          "html": "Add a <code>cocktail_id</code> column (foreign key) to the <code>restaurants</code> table",
+          "comments": "Not quite. This would allow restaurants to serve only a single cocktail. A restaurant would belong to a cocktail.",
+          "comments_html": "Not quite. This would allow restaurants to serve only a single cocktail. A\nrestaurant would belong to a cocktail."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1841",
           "id": 1841,
-          "text": "",
-          "html": "<p>Add a <code>restaurant_id</code> column (foreign key) to the <code>cocktails</code> table</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This would mean each cocktail could be served at only one restaurant.\nA cocktail would belong to a restaurant.</p>",
-          "weight": 0.0
+          "text": "Add a restaurant_id column (foreign key) to the cocktails table",
+          "html": "Add a <code>restaurant_id</code> column (foreign key) to the <code>cocktails</code> table",
+          "comments": "Not quite. This would mean each cocktail could be served at only one restaurant. A cocktail would belong to a restaurant.",
+          "comments_html": "Not quite. This would mean each cocktail could be served at only one restaurant.\nA cocktail would belong to a restaurant."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5642",
           "id": 5642,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -359,53 +366,56 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210656,
-      "quiz_id": 31821,
+      "id": 366044,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453450,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 6,
       "question_name": "SQL: Joins",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>We have two tables: <code>dogs</code> and <code>owners</code>. All of the owners have dogs, but not\nall dogs belong to an owner — some are strays. Which query will return ALL of\nthe dogs and their matching owners?</p>",
+      "question_text": "We have two tables: <code>dogs</code> and <code>owners</code>. All of the owners have dogs, but not\nall dogs belong to an owner — some are strays. Which query will return ALL of\nthe dogs and their matching owners?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:SQL Joins",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/sql-joins?module_item_id=428513\">SQL Joins</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/sql-joins?module_item_id=ge3bfe09caa6051afc8a3938204a0b1e5\">SQL Joins</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5278",
           "id": 5278,
-          "text": "",
+          "text": "SELECT * FROM dogs LEFT JOIN owners ON dogs.owner_id = owners.id;",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">dogs</span>\n<span class=\"k\">LEFT</span> <span class=\"k\">JOIN</span> <span class=\"n\">owners</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! <code>dogs</code> is the left table, so all of the dogs will be returned, even if\nthey don't have an owner. Matching owners will also be returned.</p>",
-          "weight": 100.0
+          "comments": "Correct! dogs is the left table, so all of the dogs will be returned, even if they don't have an owner. Matching owners will also be returned.",
+          "comments_html": "Correct! <code>dogs</code> is the left table, so all of the dogs will be returned, even if\nthey don't have an owner. Matching owners will also be returned."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2920",
           "id": 2920,
-          "text": "",
+          "text": "SELECT * FROM owners LEFT JOIN dogs ON dogs.owner_id = owners.id;",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">owners</span>\n<span class=\"k\">LEFT</span> <span class=\"k\">JOIN</span> <span class=\"n\">dogs</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This will actually return all of the owners and their matching dogs.\nWhich query will give us every dog?</p>",
-          "weight": 0.0
+          "comments": "Not quite. This will actually return all of the owners and their matching dogs. Which query will give us every dog?",
+          "comments_html": "Not quite. This will actually return all of the owners and their matching dogs.\nWhich query will give us every dog?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9748",
           "id": 9748,
-          "text": "",
+          "text": "SELECT * FROM dogs INNER JOIN owners ON dogs.owner_id = owners.id;",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">dogs</span>\n<span class=\"k\">INNER</span> <span class=\"k\">JOIN</span> <span class=\"n\">owners</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This will actually only return dogs that have an owner. Which query\nwill give us every dog?</p>",
-          "weight": 0.0
+          "comments": "Not quite. This will actually only return dogs that have an owner. Which query will give us every dog?",
+          "comments_html": "Not quite. This will actually only return dogs that have an owner. Which query\nwill give us every dog?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4141",
           "id": 4141,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -416,35 +426,37 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 210657,
-      "quiz_id": 31821,
+      "id": 366045,
+      "quiz_id": 53499,
       "quiz_group_id": null,
-      "assessment_question_id": 453445,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 7,
       "question_name": "SQL: Joins",
       "question_type": "true_false_question",
-      "question_text": "<p>A join table creates a many-to-many relationship between two other tables.</p>",
+      "question_text": "A join table creates a many-to-many relationship between two other tables.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Creating Join Tables",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/creating-join-tables\">Creating Join Tables</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/creating-join-tables\">Creating Join Tables</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Correct! To set up a many-to-many relationship, we use a join table that has\ncommon fields from two or more other tables.</p>",
-          "text": "True",
           "weight": 100,
-          "id": 7886
+          "migration_id": "RESPONSE_7886",
+          "id": 7886,
+          "text": "True",
+          "comments": "Correct! To set up a many-to-many relationship, we use a join table that has common fields from two or more other tables.",
+          "comments_html": "Correct! To set up a many-to-many relationship, we use a join table that has\ncommon fields from two or more other tables."
         },
         {
-          "comments": "",
-          "comments_html": "<p>A join table <strong>is</strong> used to set up a many-to-many relationship. You may want to\nreview the source/s for this question.</p>",
-          "text": "False",
           "weight": 0,
-          "id": 3848
+          "migration_id": "RESPONSE_3848",
+          "id": 3848,
+          "text": "False",
+          "comments": "A join table is used to set up a many-to-many relationship. You may want to review the source/s for this question.",
+          "comments_html": "A join table <strong>is</strong> used to set up a many-to-many relationship. You may want to\nreview the source/s for this question."
         }
       ],
       "variables": null,

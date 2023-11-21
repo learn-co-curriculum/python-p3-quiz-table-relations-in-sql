@@ -1,6 +1,6 @@
 ---
-id: 31821
-course_id: 5935
+id: 53499
+course_id: 7559
 repo: python-p3-quiz-table-relations-in-sql
 ---
 
